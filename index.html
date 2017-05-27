@@ -52,20 +52,6 @@
             </div><!--//profile-->              
         </div><!--//container-->
     </header><!--//header-->
-    
-    <div class="wrapper">
-        <div class="change-language-wrapper">
-        <div class="selector" lang="en">
-            Select your preferred language:
-            </div>
-        <div class="english-option" lang="en" onclick="window.lang.change('en')">
-            English
-            </div>
-            <div class="spanish-option" lang="en" onclick="window.lang.change('es'); ">
-            Spanish
-            </div>
-        </div>
-    </div>
 
     <div class="container sections-wrapper">
         <div class="row">
@@ -256,20 +242,8 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
     <!-- custom js -->
-    <script type="text/javascript" src="assets/plugins/jquery-lang-js/js/jquery-lang.js" charset="utf-8" ></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     
-
-    <script type="text/javascript">
-    // Create language switcher instance
-    var lang = new Lang();
-        lang.dynamic('es', 'assets/js/langpack/es.json');
-        lang.init({
-            defaultLang: 'en'
-        });
-    
-
-    </script>
 
 </body>
 </html> 
